@@ -1,0 +1,27 @@
+{
+  "name": "@ippei-fukamatsu/example-github-packages",
+  "version": "0.0.1",
+  "description": "GitHub Package sample By Takumi.K",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ippei-fukamatsu/example-github-packages.git"
+  },
+  "author": "ippei-fukamatsu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ippei-fukamatsu/example-github-packages/issues"
+  },
+  "homepage": "https://github.com/ippei-fukamatsu/example-github-packages#readme",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  }
+}
